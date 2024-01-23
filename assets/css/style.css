@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* Declaración de fuentes */
+@font-face {
+    font-family: "fuente_montserrat";
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "fuente_eb_garamond";
+    src: url("../fonts/EB_Garamond/static/EBGaramond-Medium.ttf");
+}
+
+/* Declaración de variables*/
+:root{
+    --fuente1: "fuente_montserrat";
+    --fuente2: "fuente_eb_garamond";
+}
